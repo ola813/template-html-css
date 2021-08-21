@@ -1,0 +1,39 @@
+/* 3.8 testmoinal Section */
+.testmonial{
+    position: relative;
+    background-image: url(../images/background/background3.webp);
+    background-size: cover;
+    background-attachment: fixed;
+    height: 400px;
+  }
+  .testmonial-content{
+    overflow: hidden;
+    padding: 120px 0;
+    width: 80%;
+    margin: auto;
+  }
+  .testmonial-item{
+    width: 50%;
+    float: left;
+    color: var(--whitcolor)
+  }
+  .testmonial-item .testmoinal-top-layer{
+    padding: 10px 2px 30px 100px;
+    position: relative;
+  }
+  .testmonial-item .testmoinal-top-layer img{
+    position: absolute;
+    top:0;
+    left: 10px;
+    border-radius: 50%;
+  }
+  .testmonial-item .testmoinal-top-layer .testmonail-title{
+    margin-bottom: 7px;
+  }
+  .testmonial-item .testmoinal-top-layer .testmonail-text{
+    color: var(--main-color);
+  }
+  .testmonial-item .testmoinal-top-layer .testmonail-desc{
+    line-height: 1.6;
+    font-size: 17px;
+  }
